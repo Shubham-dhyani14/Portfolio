@@ -35,5 +35,5 @@ const Home = async () => {
     </PageWrapper>
   );
 };
-
+export const revalidate = 60;
 export default Home;

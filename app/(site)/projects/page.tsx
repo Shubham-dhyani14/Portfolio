@@ -22,5 +22,5 @@ const Projects = async () => {
     </div>
   );
 };
-
+export const revalidate = 60;
 export default Projects;

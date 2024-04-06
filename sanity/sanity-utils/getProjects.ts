@@ -1,6 +1,7 @@
 import { Project } from "@/interfaces";
 import { groq } from "next-sanity";
 import { client } from "../lib/client";
+import next from "next";
 
 export const getProjects: () => Promise<Project[]> = async () => {
   try {
@@ -16,7 +17,7 @@ export const getProjects: () => Promise<Project[]> = async () => {
       } | order(_createdAt desc)`,
       {
         caches: "no-cache",
-      }
+      },
     );
 
     return projects;

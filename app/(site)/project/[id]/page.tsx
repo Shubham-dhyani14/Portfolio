@@ -91,5 +91,5 @@ const Project = async ({ params }: Props) => {
     </PageWrapper>
   );
 };
-
+export const revalidate = 60;
 export default Project;
