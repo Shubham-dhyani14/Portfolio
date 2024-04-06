@@ -45,7 +45,7 @@ export const skills: Skill[] = [
     title: "React Native",
     icon: "/images/icons/react.svg",
     description:
-      "Experienced in building modern and user friendly mobile apps using the React Native.",
+      "Build some modern and user friendly mobile apps using the React Native.",
   },
   {
     title: "Git",
@@ -65,22 +65,22 @@ export const skills: Skill[] = [
     description:
       "Proficient in building server-side applications and APIs using Node.js runtime.",
   },
-  {
-    title: "TypeScript",
-    icon: "/images/icons/typescript.svg",
-    description:
-      "Experienced in using TypeScript to develop robust web apps with static typing.",
-  },
-  {
-    title: "Figma",
-    icon: "/images/icons/figma.svg",
-    description:
-      "Skilled in using Figma for collaborative and efficient UI/UX design and prototyping.",
-  },
   // {
-  //   title: "Flutter",
-  //   icon: "/images/icons/flutter.svg",
+  //   title: "TypeScript",
+  //   icon: "/images/icons/typescript.svg",
   //   description:
-  //     "Beginner in developing cross-platform mobile applications using the Flutter framework.",
+  //     "Experienced in using TypeScript to develop robust web apps with static typing.",
   // },
+  // {
+  //   title: "Figma",
+  //   icon: "/images/icons/figma.svg",
+  //   description:
+  //     "Skilled in using Figma for collaborative and efficient UI/UX design and prototyping.",
+  // },
+  {
+    title: "Flutter",
+    icon: "/images/icons/flutter.svg",
+    description:
+      "Beginner in developing cross-platform mobile applications using the Flutter framework.",
+  },
 ];

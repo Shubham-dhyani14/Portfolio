@@ -6,7 +6,7 @@ import React from "react";
 
 //importing typewriter-effect
 import Typewriter from "typewriter-effect";
-
+const Resume_Link: string = 'https://docs.google.com/document/d/1xiFZd7QUupi5hsq196V_XNAgwA3GIFhIjo8e9TuUSOs/edit?usp=sharing'
 const Hero = () => {
   return (
     <div className="relative h-screen">
@@ -30,7 +30,7 @@ const Hero = () => {
               I am a
               <Typewriter
                 options={{
-                  strings: ["Developer", "Blogger", "Designer", "Freelancer"],
+                  strings: ["Frontend Developer", "App Developer", "Designer"],
                   autoStart: true,
                   loop: true,
                   wrapperClassName: "text-orange-500",
@@ -49,12 +49,12 @@ const Hero = () => {
               Contact Me
             </Link>
             <a
-              href="/resume.pdf"
+              href={Resume_Link}
               target="_blank"
               rel="noreferrer"
               className="uppercase text-sm tracking-[2px] px-10 py-4 rounded-full inline-block font-semibold transition-all text-white border-2 border-white/20 duration-200 hover:bg-orange-600 hover:scale-110"
             >
-              Download Resume
+              Resume
             </a>
           </div>
         </div>

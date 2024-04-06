@@ -27,23 +27,22 @@ const AboutMeSection = () => {
               <SectionTitle title="About Me" />
               <p className="my-5">
                 I&apos;m Shubham Dhyani, a web developer hailing from the serene
-                landscapes of Himachal Pradesh, India. With an innate curiosity
+                landscapes of Uttrakhand Pradesh, India. With an innate curiosity
                 for technology, I&apos;ve embarked on a journey to master the
                 art of crafting digital solutions that are both functional and
                 visually compelling.
               </p>
               <p className="mb-5">
                 Starting with the foundation of HTML and CSS, I quickly immersed
-                myself in the world of web development. As I honed my skills, I
-                found a particular affinity for JavaScript, which opened the
-                doors to creating dynamic and engaging user experiences. Over
+                myself in the world of web development. I have explored multiple frameworks in Software Devloping field, which opened the
+                doors to creating dynamic Softwares, engaging user experiences. Over
                 time, I&apos;ve embraced modern frameworks like React and
                 dabbled in backend technologies like Node.js, solidifying my
                 commitment to becoming a full-stack developer.
               </p>
               <p className="mb-5">
                 Away from the keyboard, you&apos;ll often find me exploring the
-                mountains and valleys of Himachal Pradesh, drawing inspiration
+                mountains and valleys of Uttrakhand, drawing inspiration
                 from nature&apos;s elegance. My goal is to seamlessly blend my
                 passion for technology with the tranquility of my surroundings,
                 crafting digital experiences that leave a lasting impact.
