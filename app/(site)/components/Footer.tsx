@@ -14,7 +14,7 @@ const Footer = () => {
           <Link href="/">
             <Image
               src="/images/logo-1.png"
-              alt="sahil verma"
+              alt="Shubham"
               width={300}
               height={64}
               loading="lazy"
@@ -39,13 +39,13 @@ const Footer = () => {
         <div className="md:text-sm text-xs w-full md:w-auto text-center">
           <CopyIcon className="inline-flex" /> Copyright {date?.getFullYear()}{" "}
           <a
-            href="https://www.linkedin.com/in/sahil-verma-970b9920a/"
+            href="https://www.linkedin.com/in/shubham-dhyani-001abc/"
             // 1="noopener noreferrer"
             rel="noreferrer"
             target="_blank"
             className="font-semibold text-orange-500"
           >
-            Sahil Verma
+            Shubham
           </a>
           . All Rights Reserved.
         </div>

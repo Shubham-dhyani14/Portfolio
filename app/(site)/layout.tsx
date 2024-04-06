@@ -8,11 +8,11 @@ import GoogleAnalytics from "./components/GoogleAnalytics";
 export const metadata = {
   metadataBase: new URL("https://sahilverma.dev"),
   title: {
-    default: "Sahil Verma - Home",
-    template: `Sahil Verma - %s`,
+    default: "Shubham Dhyani - Home",
+    template: `Shubham Dhyani - %s`,
   },
   description:
-    "Hello, I'm Sahil Verma. - I'm a full stack developer from Himachal Pradesh India.",
+    "Hello, I'm Shubham Dhyani. - I'm a full stack developer from Uttrakhand, India.",
   openGraph: {
     images: ["/images/open-graph.png"],
   },

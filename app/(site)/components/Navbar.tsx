@@ -34,24 +34,22 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 w-full z-[60] transition-all ${
-          sticky
+        className={`fixed top-0 left-0 w-full z-[60] transition-all ${sticky
             ? " md:bg-primary-blue/70 backdrop-blur "
             : "bg-transparent py-6"
-        }`}
+          }`}
       >
         <div className="max-w-7xl p-2 xl:p-0 flex items-center justify-between px-2 mx-auto">
           <div className="w-[160px]">
             <Link href="/" onClick={() => setMenuOpen(false)}>
               <Image
                 src="/images/logo.png"
-                alt="Sahil Verma"
+                alt="Shubham Dhyani"
                 loading="lazy"
                 width={50}
                 height={50}
-                className={`aspect-square shrink-0 rounded-full transition-all ${
-                  sticky ? "h-11 w-11 " : "h-14 w-14"
-                }`}
+                className={`aspect-square shrink-0 rounded-full transition-all ${sticky ? "h-11 w-11 " : "h-14 w-14"
+                  }`}
               />
             </Link>
           </div>
@@ -60,9 +58,8 @@ const Navbar = () => {
               <div className="flex flex-col w-full " key={index}>
                 <Link
                   href={nav?.route}
-                  className={`w-full py-4 px-4 transition-all  block hover:text-orange-500 text-center ${
-                    pathname === nav.route ? "text-orange-500" : "text-white"
-                  }`}
+                  className={`w-full py-4 px-4 transition-all  block hover:text-orange-500 text-center ${pathname === nav.route ? "text-orange-500" : "text-white"
+                    }`}
                 >
                   {nav?.title}
                 </Link>
@@ -70,9 +67,8 @@ const Navbar = () => {
                   <motion.div
                     layoutId="activeMenu"
                     layout
-                    className={`bg-orange-500 w-full  ${
-                      sticky ? "h-0.5" : "h-1"
-                    } rounded-full`}
+                    className={`bg-orange-500 w-full  ${sticky ? "h-0.5" : "h-1"
+                      } rounded-full`}
                   />
                 )}
               </div>
@@ -114,9 +110,8 @@ const Navbar = () => {
               initial="hidden"
               animate="visible"
               exit="hidden"
-              className={`w-full flex flex-col gap-3 p-3 ${
-                sticky ? "mt-16" : "mt-24"
-              }`}
+              className={`w-full flex flex-col gap-3 p-3 ${sticky ? "mt-16" : "mt-24"
+                }`}
             >
               {navMenuData.map((item, index) => (
                 <Fragment key={index}>
@@ -128,11 +123,10 @@ const Navbar = () => {
                     <Link
                       href={item.route}
                       onClick={() => setMenuOpen(false)}
-                      className={`w-full py-3 block transition-all ${
-                        pathname === item.route
+                      className={`w-full py-3 block transition-all ${pathname === item.route
                           ? "text-primary-orange"
                           : "text-white"
-                      }`}
+                        }`}
                     >
                       {item.title}
                     </Link>
@@ -145,9 +139,8 @@ const Navbar = () => {
                         initial={{ width: 0 }}
                         animate={{ width: "100%" }}
                         exit={{ width: 0 }}
-                        className={`bg-orange-500  ${
-                          sticky ? "h-0.5" : "h-1"
-                        } rounded-full`}
+                        className={`bg-orange-500  ${sticky ? "h-0.5" : "h-1"
+                          } rounded-full`}
                       />
                     )}
                   </AnimatePresence>

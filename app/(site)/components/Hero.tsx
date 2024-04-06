@@ -25,7 +25,7 @@ const Hero = () => {
             Hello World!
           </span>
           <div className="md:text-[58px] text-[30px] font-bold md:leading-[75px] leading-[50px]">
-            I m Sahil Verma. <br />
+            I m Shubham Dhyani. <br />
             <span className="inline-flex md:gap-5 gap-1">
               I am a
               <Typewriter

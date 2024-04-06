@@ -8,26 +8,26 @@ export const socialMediaData = [
   {
     title: "LinkedIn",
     icon: LinkedinIcon,
-    link: "https://www.linkedin.com/in/sahil-verma-970b9920a/",
+    link: "https://www.linkedin.com/in/shubham-dhyani-001abc/",
   },
-  {
-    title: "CodePen",
-    icon: CodepenIcon,
-    link: "https://www.codepen.io/sahilpro/",
-  },
+  // {
+  //   title: "CodePen",
+  //   icon: CodepenIcon,
+  //   link: "https://www.codepen.io/sahilpro/",
+  // },
   {
     title: "GitHub",
     icon: GithubIcon,
-    link: "https://github.com/sahilverma-dev",
+    link: "https://github.com/Shubham-dhyani14",
   },
-  {
-    title: "Twitter",
-    icon: TwitterIcon,
-    link: "https://www.twitter.com/sahilverma_dev/",
-  },
-  {
-    title: "Instagram",
-    icon: InstagramIcon,
-    link: "https://www.instagram.com/sahilverma.dev/",
-  },
+  // {
+  //   title: "Twitter",
+  //   icon: TwitterIcon,
+  //   link: "https://www.twitter.com/sahilverma_dev/",
+  // },
+  // {
+  //   title: "Instagram",
+  //   icon: InstagramIcon,
+  //   link: "https://www.instagram.com/sahilverma.dev/",
+  // },
 ];

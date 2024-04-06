@@ -26,7 +26,7 @@ const AboutMeSection = () => {
             <div className="flex-1 md:overflow-y-scroll hide-scroll">
               <SectionTitle title="About Me" />
               <p className="my-5">
-                I&apos;m Sahil Verma, a web developer hailing from the serene
+                I&apos;m Shubham Dhyani, a web developer hailing from the serene
                 landscapes of Himachal Pradesh, India. With an innate curiosity
                 for technology, I&apos;ve embarked on a journey to master the
                 art of crafting digital solutions that are both functional and

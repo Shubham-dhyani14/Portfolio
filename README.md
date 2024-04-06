@@ -1,12 +1,12 @@
-# Sahil Verma - Developer Portfolio
+# Shubham Dhyani - Developer Portfolio
 
-![Sahil Verma - Developer Portfolio](/screenshots/poster.png)
+![Shubham Dhyani - Developer Portfolio](/screenshots/poster.png)
 
 Welcome to my developer portfolio repository! This repository houses the code for my personal portfolio website, where I showcase my skills, projects, and expertise as a full stack developer.
 
 ## About Me
 
-Hey there! I'm Sahil Verma, a passionate full stack developer on a mission to craft extraordinary digital experiences. With a blend of creativity and technical prowess, I bring innovative ideas to life through code and design. Visit my portfolio at [sahilverma.dev](https://sahilverma.dev/) to learn more about me and my journey.
+Hey there! I'm Shubham Dhyani, a passionate full stack developer on a mission to craft extraordinary digital experiences. With a blend of creativity and technical prowess, I bring innovative ideas to life through code and design. Visit my portfolio at [sahilverma.dev](https://sahilverma.dev/) to learn more about me and my journey.
 
 ## Tech Stack
 
