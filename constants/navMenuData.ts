@@ -11,10 +11,10 @@ export const navMenuData = [
     title: "Projects",
     route: "/projects",
   },
-  {
-    title: "Articles",
-    route: "/articles",
-  },
+  // {
+  //   title: "Articles",
+  //   route: "/articles",
+  // },
   {
     title: "Contact",
     route: "/contact",

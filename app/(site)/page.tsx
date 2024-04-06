@@ -29,9 +29,9 @@ const Home = async () => {
           <ProjectsSection projects={projects} />
         </div>
       </div>
-      <div className="md:py-14 py-4 max-w-7xl mx-auto px-3 ">
+      {/* <div className="md:py-14 py-4 max-w-7xl mx-auto px-3 ">
         <ArticlesSection articles={articles} />
-      </div>
+      </div> */}
     </PageWrapper>
   );
 };

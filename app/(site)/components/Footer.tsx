@@ -8,19 +8,20 @@ import { socialMediaData } from "@/constants/socialMediaData";
 const Footer = () => {
   const date = new Date();
   return (
-    <footer className="w-full bg-slate-800">
+    <footer className="w-full bg-slate-900 px-3 ">
       <div className="max-w-7xl mx-auto py-10 flex flex-col gap-4 md:flex-row justify-between items-center">
-        <div className="md:w-[337px]">
+        <div className="md:w-[337px] flex flex-row items-center gap-2">
           <Link href="/">
             <Image
-              src="/images/logo-1.png"
+              src="/images/logo.png"
               alt="Shubham"
-              width={300}
-              height={64}
+              width={50}
+              height={50}
               loading="lazy"
               className="h-16 object-contain md:object-left"
             />
           </Link>
+          <h2 className="font-bold">Shubham Dhyani</h2>
         </div>
         <div className="flex gap-6 items-center text-xl">
           {socialMediaData?.map((social, index) => (
